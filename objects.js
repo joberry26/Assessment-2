@@ -14,7 +14,17 @@
   For example: 'Hello! My name is Rubber Duck and I live in Utah"
 */
 
-//CODE HERE
+let me = {
+  firstName: 'Joseph',
+  state: 'Utah',
+  age: 19,
+}
+
+function greeter (){
+  return `Hello! my name is ${me.firstName} and I live in ${me.state}`;
+}
+
+greeter();
 
 
 
@@ -44,4 +54,19 @@
   }
 */
 
-//CODE HERE
+function carFactory (make, model, year){
+  let car1 = {
+    make: make,
+    model: model,
+    year: year,
+  } 
+  if (car1.year > 2018) {
+    car1.isNew = true;
+  } else {
+    car1.isNew = false;
+  }
+  return car1
+}
+
+carFactory('toyota', 'corolla', 2019)
+
