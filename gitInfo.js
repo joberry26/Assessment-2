@@ -1,5 +1,6 @@
 /*
-    For this section of the assessment you will be putting together a cheat sheet for common git commands.  
+    For this section of the assessment you will be putting together a cheat sheet for 
+    common git commands.  
     You'll provide the command as well as what it does. 
 */
 
@@ -9,7 +10,8 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let git =  'is a software that tracks changes in any set of files. It helps actively track any changes in 
+'code and create repositories for personal use and collaborative use.';
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +19,8 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = 'GitHub is a central hub for software development files. It stores repositories and creates
+'a link for users to push local software onto the global net.';
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -33,21 +36,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
-
-//////////////////PROBLEM 4////////////////////
-/*
-    Create an object called 'clone' with 'description' and 'code' properties 
-    following the guidelines above to describe the clone command.
-*/
-
-//CODE HERE
-
-//////////////////PROBLEM 5////////////////////
-/*
-    Create an object called 'status' with 'description' and 'code' properties 
-    following the guidelines above to describe the status command.
-*/
+let init = {
+    description: 'the init command initializes a repository.',
+    code: 'git init',
+};
 
 //CODE HERE
 
@@ -57,7 +49,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description: 'the add command adds the files to the repository created from the specified file.',
+    code: 'git add .',
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +60,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description: 'the commit command adds a message to go with the added code from the files.',
+    code: 'git commit -m "message here".',
+};
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +72,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description: 'the push command pushed the file from the local net to the global net (GitHub).',
+    code: 'git push',
+};
